@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.description = 'Payment Method Cash On Delivery'
   s.author      = 'Pablo'
   s.email       = 'pablotorre81@gmail.com'
-  s.required_ruby_version = '>= 1.9.3'
+  s.required_ruby_version = '>= 2.3.0'
 
   #s.files       = `git ls-files`.split("\n")
   #s.test_files  = `git ls-files -- {test,spec,features}/*`.split("\n")
@@ -15,5 +15,5 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
   s.requirements << 'none'
 
-  s.add_dependency 'spree_core', '~> 3.0.0'
+  s.add_dependency 'solidus_core', '~> 1.4.1'
 end
